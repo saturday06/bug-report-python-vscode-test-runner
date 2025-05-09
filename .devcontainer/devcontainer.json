@@ -1,0 +1,15 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/python:3.13",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.testing.pytestEnabled": false,
+        "python.testing.unittestEnabled": true
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance"
+      ]
+    }
+  }
+}
